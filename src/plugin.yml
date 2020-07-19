@@ -1,0 +1,14 @@
+main: scidev.armorRandomizer.ArmorRandomizer
+name: ArmorRandomizerScenario
+version: '1.0'
+api-version: 1.8
+description: Your armor is randomized every minute.
+author: SciDev
+commands:
+   startscenario_armorrandomizer:
+      description: "Set plugin enabled or disabled."
+      usage: "USAGE: /startscenario_armorrandomizer <enabled>"
+      
+permissions:
+   armorrandomizer.command.toggle.use:
+      default: op
